@@ -1,0 +1,21 @@
+.colaborar{
+    width: 100%;
+    padding: 3rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.colaborar h2{
+    font-size: 2rem;
+    color: #212121;
+    font-weight: 400;
+    border-bottom: 4px solid #57C278;
+    display: inline-block;
+    padding-bottom: .5rem;
+}
+
+.colaborar__card{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
