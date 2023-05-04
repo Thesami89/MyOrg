@@ -18,3 +18,13 @@
     right: 25%;
     cursor: pointer;
 }
+
+@media screen and (max-width:450px){
+    .section-org{
+        flex-direction: column-reverse;
+    }
+
+    .section-org img{
+        position:static;
+    }
+}
