@@ -67,7 +67,7 @@ const Formulario = (props) =>{
             
         </form>
         <form onSubmit={manejarNuevoEquipo}>
-            <h2>Rellena el formulario para crear un nuevo equipo.</h2>
+            <h2>Rellena el formulario para crear un nuevo equipo xd.</h2>
             <Texto  
             titulo='Titulo' 
             placeholder='Ingresar Titulo' 
