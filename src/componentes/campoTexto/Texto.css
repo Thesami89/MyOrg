@@ -23,3 +23,8 @@
     font-size: 16px;
     box-sizing: border-box;
 }
+
+.texto-color input{
+    height: 40px;
+    padding: 5px 20px;
+}

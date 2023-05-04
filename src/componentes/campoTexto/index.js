@@ -4,17 +4,21 @@ import './Texto.css'
 const Texto = (props) =>{
     const placeholderModificado = `${props.placeholder}...`
 
+    
+    const{type='text'} = props
+
     const manejarCambio = (e) =>{
         props.actualizarvalor(e.target.value)
     }
-    return <div className='texto'>
+    return <div className={`texto texto-${type}`}>
         <label>{props.titulo}</label>
         <input 
-        type="text" 
         placeholder={placeholderModificado} 
         required={props.required} 
         value={props.valor} 
         onChange={manejarCambio}
+        type={type}
+       
         />
     </div>
 }

@@ -3,6 +3,13 @@
     padding: 3rem;
     box-sizing: border-box;
     text-align: center;
+    position: relative;
+}
+
+.input-color{
+    position: absolute;
+    top: 20px;
+    right: 50px;
 }
 
 .colaborar h2{
@@ -19,3 +26,4 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
